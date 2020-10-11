@@ -1,6 +1,8 @@
 # Arduino Radio
  A simple solar powered FM radio project
  
+ ![Image of Radio](https://github.com/Krugaroo/Arduino-Radio/blob/main/pcb/assembled_picture.jpg)
+ 
  *Note: The software included in this project is complete and can be used to flash onto an Arduino directly. The final project is intended to be on a custom PCB with an AtTiny-85 microcontroller.
  The PCB design is on its first revision, and requires some workaround. I will finish the PCB and add a proper readme in the future.*
  
@@ -10,7 +12,12 @@
  I have made the PCB design and Arduino software available freely in the hope that it might still be of use.
  
  The project uses a simple module (RDA5807) that can be bought cheaply and controlled over I2C using a microcontroller (i.e Arduino). The audio is amplified with an amplifier (PAM8403). I have included a BOM list for reference.
- The total cost at single units is less than 10 Euro. 
+ The total cost at single units is less than 10 Euro.
+ 
+ # How it works
+ The radio can search for channels by keeping the scan button pressed. Once the desired channel is found let go of the button.
+ The volume can be increased/decreased by pressing the volume up and down buttons
+ Once a channel and volume is selected it will be stored in the EEPROM so it does not need to be tuned again when power is restored.
  
 
  # Tips
