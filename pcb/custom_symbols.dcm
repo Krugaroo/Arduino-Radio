@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP module_audioamp_PAM8403
+D Stereo Audio Amplifier 5V 3W based on PAM8403
+$ENDCMP
+#
+$CMP module_boostregulator_5V
+D 5V boost regulator with 0.9-5V input up to 480mA
+$ENDCMP
+#
+$CMP module_radio_RDA5807M
+D AM/FM radio audio receiver based on the RDA5807M 3.3V
+$ENDCMP
+#
+#End Doc Library

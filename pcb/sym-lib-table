@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name RadioBoard-rescue)(type Legacy)(uri ${KIPRJMOD}/RadioBoard-rescue.lib)(options "")(descr ""))
+)
